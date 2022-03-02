@@ -21,7 +21,7 @@ bool retirerArgent(mad montant);
 void deposerArgent(mad montant);
 void consulterSolde() const;
 void histo() const;
-bool transfererArgent(Compte &c, mad montant);// ?
+bool transfererArgent(Compte &c, mad montant);
  bool comparerCompte(const Compte &c) const;
  ~Compte(); // destructeur
  mad calcul_intr() const;

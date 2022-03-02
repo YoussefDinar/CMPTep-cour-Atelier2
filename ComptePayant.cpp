@@ -5,14 +5,14 @@ ComptePayant::ComptePayant()
     {
     }
 
-bool ComptePayant::retirerArgent(float montant){
+bool ComptePayant::retirerArgent(mad montant){
 
 this->Compte::retirerArgent(montant);
 this->Compte::retirerArgent(montant*0.5);
 
 }
 
-void ComptePayant::deposerArgent(double montant)
+void ComptePayant::deposerArgent(mad montant)
  {
  this->Compte::deposerArgent(montant);
 this->Compte::deposerArgent(montant*0.5);

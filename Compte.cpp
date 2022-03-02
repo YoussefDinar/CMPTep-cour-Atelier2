@@ -29,7 +29,7 @@
  this->solde = this->solde + mad;
  }
 
- void Compte::consulterSolde() const
+ void Compte::afficher() const
  {
 
  mad AS = this->solde;

@@ -19,7 +19,7 @@ vector<Operation*> Lop;
 Compte(Client nom, mad solde);
 bool retirerArgent(mad montant);
 void deposerArgent(mad montant);
-void consulterSolde() const;
+void afficher() const;
 void histo() const;
 bool transfererArgent(Compte &c, mad montant);
  bool comparerCompte(const Compte &c) const;
